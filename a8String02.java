@@ -1,6 +1,6 @@
 // Methods of String
 
-public class a8Strin02 {
+public class a8String02 {
     public static void main(String[] args){
         // String is immutable 
         // if we done operation on string using method it creates new string but not change actual one
