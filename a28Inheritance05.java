@@ -58,4 +58,4 @@ public class a28Inheritance05 {
 
 // In Inheritance we learn :
 // Inheritance, Types of Inheritance, Method Overriding , Constructor Chaining, super keyword, annotation (like Override) and 
-// Diamond blem in Multiple Inheritance
+// Diamond problem in Multiple Inheritance
