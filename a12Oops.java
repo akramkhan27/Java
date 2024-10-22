@@ -13,7 +13,8 @@
 // In Java, inheritance is achieved using the extends keyword.
 
 // Polymorphism ->
-// Polymorphism in Java allows objects to be treated as instances of their parent class or (object type is child class and reference type is parent class)
+// Polymorphism in Java allows objects to be treated as instances of their parent class or 
+// (object type is child class and reference type is parent class)
 // rather than their actual class.
 // There are two types:
 
