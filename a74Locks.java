@@ -1,5 +1,16 @@
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+// 1. Intrinsic Locks
+// Definition: These locks are built into every Java object and are automatically 
+// used when you use the synchronized keyword.
+// How It Works:
+// When a thread enters a synchronized block or method, it acquires the intrinsic 
+// lock of the object.
+// Other threads trying to access synchronized code must wait until the lock is released.
+
+// 2. Explicit Locks
+// Definition: These are more advanced locks provided by the java.util.concurrent.locks package.
+// How It Works:
+// You manually control when to lock and unlock.
+// This gives greater flexibility and prevents issues like deadlocks or contention.
 
 // In Java, Locks provide a more advanced mechanism for thread synchronization 
 // compared to synchronized. They belong to the java.util.concurrent.locks 
@@ -33,6 +44,10 @@ import java.util.concurrent.locks.ReentrantLock;
 // lock.unlock(): Releases the lock, allowing other threads to proceed. 
     // -unlock the lock
 // try-finally: Ensures the lock is released even if an exception occurs.
+
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
 
 class BankAccount{
     private int balance=100;

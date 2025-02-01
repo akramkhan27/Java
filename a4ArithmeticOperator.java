@@ -1,3 +1,4 @@
+
 public class a4ArithmeticOperator {
     public static void main(String[] args){
         int salary=10000;

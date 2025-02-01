@@ -96,6 +96,7 @@ public class a11Array {
         for(int i=0; i<newMyArray.length; i++){
             for(int j=0; j<newMyArray[i].length; j++){
                 System.out.print(newMyArray[i][j]+" ");
+                
             }
             System.out.println();
         }

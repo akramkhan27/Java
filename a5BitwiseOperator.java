@@ -50,7 +50,7 @@ public class a5BitwiseOperator {
         // System.out.println(Integer.toBinaryString(value));
 
         // <<
-        // it shift the bit to left and vacant spacefrom front added with 0
+        // it shift the bit to left and vacant space from front added with 0
         // int a=5;
         // int value=a<<1;
         // System.out.println(Integer.toBinaryString(a));
