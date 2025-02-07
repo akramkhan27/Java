@@ -108,8 +108,6 @@ public class a83ThreadCommunincation {
 // The producer notifies the consumer when it finishes producing data.
 // The consumer notifies the producer when it finishes consuming data.
 
-// What is Thread Safety in Java?
-// Thread safety in Java ensures that shared data or resources are accessed correctly when 
-// multiple threads are working concurrently. If a piece of code is thread-safe, it behaves 
-// as expected even when accessed by multiple threads simultaneously without causing race 
-// conditions, data inconsistency, or unexpected behavior.
+// Advantages of Thread Communication
+// Ensures proper coordination between threads.
+// Prevents race conditions in producer-consumer scenarios.
